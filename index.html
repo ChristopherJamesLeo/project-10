@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home - Porject 10</title>
+    <script src="https://kit.fontawesome.com/2ea2780247.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaStyle.css">
+
+</head>
+<body>
+    <nav class="nav-Bar">
+        <div id="nav-container" class="nav-container ">
+            <div class="nav-logo">
+                <img src="./img/logo-garden.png" width="100%" alt="logo">
+            </div>
+            <menu>
+                <ul>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li class="services"><a href="#">Services</a><i class="fas fa-angle-down"></i>
+                        <ul class="services-box">
+                            <div><i class="fas fa-caret-up"></i></div>
+                            <li><a href="#">The Driveway & Lawn</a></li>
+                            <li><a href="#">Designing The Landscape</a></li>
+                            <li><a href="#">Planning Your Gardan</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li class="blog"><a href="#">Blog</a><i class="fas fa-angle-down"></i>
+                        <ul class="blog-box">
+                            <div><i class="fas fa-caret-up"></i></div>
+                            <li><a href="#">Gardens</a></li>
+                            <li><a href="#">Maintenance</a></li>
+                            <li><a href="#">Urban</a></li>
+                            <li><a href="#">Events</a></li>
+                        </ul></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </menu>
+            <div id="menuBtn" class="menuBtn">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div id="menuslide" class="menuslide">
+                <div class="nav-logo-slide">
+                    <img src="./img/logo-garden.png" width="100%" alt="logo">
+                </div>
+                <div class="slideclose">
+                    <ion-icon id="slidecloseBtn" class="slidecloseBtn" name="close-outline"></ion-icon>
+                </div>
+                
+                <ul>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li class="menuService"><div class="menuServiceContainer"><div class="service-item"><a href="#">Services</a></div><div id="service-drop-down"><i class="fas fa-angle-down"></i></div></div>
+                        <ul id="slideServices" class="slideServices">
+                            <li><a href="#">The Driveway & Lawn</a></li>
+                            <li><a href="#">Designing The Landscape</a></li>
+                            <li><a href="#">Planning Your Gardan</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li class="menuBlog"><div class="menuBlogContaienr"><div class="blog-item"><a href="#">Blog</a></div><div id="blog-drop-down"><i class="fas fa-angle-down"></i></div></div>
+                        <ul id="slideBlog" class="slideBlog">
+                            <li><a href="#">Gardens</a></li>
+                            <li><a href="#">Maintenance</a></li>
+                            <li><a href="#">Urban</a></li>
+                            <li><a href="#">Events</a></li>
+                        </ul></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="first-section">
+        <div class="first-section-container">
+            <div class="first-section-left">
+                <h1>Planting a garden is similar to believe in tomorrow</h1>
+                <p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                <div class="first-seciton-btn-container">
+                    <button>Our Services</button>
+                    <button>Contact Us</button>
+                </div>
+            </div>
+            <div class="first-section-right">
+                <img src="./img/home1.jpg" width="100%" class="first-section-right-img" alt="home1">
+            </div>
+        </div>
+
+    </section>
+    <section class="second-section">
+        <div class="second-section-container">
+            <div class="second-section-detail-box-container">
+                <div class="second-section-detail-box">
+                    <div class="detail-logo-container">
+                        <div class="detail-logo">
+                            <span><ion-icon name="leaf-outline"></ion-icon></span>
+                        </div>
+                    </div>
+                    <h3>Planning Your Garden</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    </p>
+                    <button><a href="#">Learn More <ion-icon name="arrow-forward-outline"></ion-icon></a> </button>
+                </div>
+            </div>
+            <div class="second-section-detail-box-container">
+                <div class="second-section-detail-box">
+                    <div class="detail-logo-container">
+                        <div class="detail-logo">
+                            <span><ion-icon name="trash-bin-outline"></ion-icon></span>
+                        </div>
+                    </div>
+                    <h3>Designing the Landscape</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    </p>
+                    <button><a href="#">Learn More <ion-icon name="arrow-forward-outline"></ion-icon></a> </button>
+                </div>
+            </div>
+            <div class="second-section-detail-box-container">
+                <div class="second-section-detail-box">
+                    <div class="detail-logo-container">
+                        <div class="detail-logo">
+                            <span><ion-icon name="rainy-outline"></ion-icon></span>
+                        </div>
+                    </div>
+                    <h3>The Driveway & Lawn</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    </p>
+                    <button><a href="#">Learn More <ion-icon name="arrow-forward-outline"></ion-icon></a> </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <sectin class="third-section">
+        <div class="third-section-container">
+            <div class="third-section-left-container">
+                <div class="third-section-left-img">
+                    <img src="./img/home3.jpg" width="100%" alt="home3">
+                </div>
+            </div>
+            <div class="third-section-right-container">
+                <div class="third-section-right">
+                    <h1>Transform your home to zen garden!</h1>
+                    <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+                    <div class="third-section-right-detail">
+                        <span><ion-icon name="checkmark-outline"></ion-icon></span>
+                        <span>
+                            The best walk behind lawn mowers
+                        </span>
+                    </div>
+                    <div class="third-section-right-detail">
+                        <span><ion-icon name="checkmark-outline"></ion-icon></span>
+                        <span>
+                            Designing the landscape
+                        </span>
+                    </div>
+                    <div class="third-section-right-detail">
+                        <span><ion-icon name="checkmark-outline"></ion-icon></span>
+                        <span>
+                            The nitty gritty of walkways
+                        </span>
+                    </div>
+                    <div class="third-section-right-detail">
+                        <span><ion-icon name="checkmark-outline"></ion-icon></span>
+                        <span>
+                            Stones in fencing enbankments
+                        </span>
+                    </div>
+                    <button>Learn About Us</button>
+                </div>
+            </div>
+        </div>
+    </sectin>
+    <section class="fourth-section">
+        <div class="fourth-heading">
+            <h1>What You Can Do with Us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+        <div class="fourth-section-body">
+            <div class="fourth-section-container">
+                <div class="fourth-first-container">
+                    <div class="fourth-box">
+                        <div class="fourth-first-logo">
+                            <i class="fa fa-pagelines"></i>
+                        </div>
+                        <div class="fourth-first-para">
+                            <h2>landscaping</h2>
+                            <p style="font-weight: 200;">We are committed to your health and well-being, offering the very latest in extensive evidence based care.</p>
+                        </div>
+                    </div>
+                    <div class="fourth-box">
+                        <div class="fourth-first-logo">
+                            <i class="fas fa-tree"></i>
+                        </div>
+                        <div class="fourth-first-para">
+                            <h2>Lawn Maintenance</h2>
+                            <p style="font-weight: 200;">We are committed to your health and well-being, offering the very latest in extensive evidence based care.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fourth-second-container">
+                    <div class="fourth-second-box">
+                        <div class="fourth-first-logo">
+                            <i class="fas fa-tram"></i>
+                        </div>
+                        <div class="fourth-first-para">
+                            <h2>Pruning plants</h2>
+                            <p style="font-weight: 200;">We are committed to your health and well-being, offering the very latest in extensive evidence based care.</p>
+                        </div>
+                    </div>
+                    <div class="fourth-second-box">
+                        <div class="fourth-first-logo">
+                            <i class="fas fa-shower"></i>
+                        </div>
+                        <div class="fourth-first-para">
+                            <h2>Irrigation & Drainage</h2>
+                            <p style="font-weight: 200;">We are committed to your health and well-being, offering the very latest in extensive evidence based care.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fourth-third-container">
+                    <h2>Opening Hours</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus</p>
+                    <div>
+                        <span>Mon-Fri</span>
+                        <span>
+                            <ion-icon name="time-outline"></ion-icon>
+                            6am - 10pm
+                        </span>
+                    </div>
+                    <hr>
+                    <div>
+                        <span>Sat-Sun</span>
+                        <span>
+                            <ion-icon name="time-outline"></ion-icon>
+                            6am - 8pm
+                        </span>
+                    </div>
+                    <hr>
+                    <button><i class="fas fa-phone-alt"></i><span>Book Appointment</span> </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fifth-section">
+        <div class="fifth-section-container">
+            <div class="fifth-section-bg-layer"></div>
+            <div class="fifth-section-vid">
+                <iframe width="465" height="262" src="https://www.youtube.com/embed/XHOmBV4js_E" title="Video Placeholder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="fifth-section-number-container">
+                <div class="fifth-section-number">
+                    <span><i class="fa fa-pagelines"></i></span>
+                    <span id="fifth-counter">40,089+</span>
+                    <span>Grass</span>
+                </div>
+                <div class="fifth-section-number">
+                    <span><i class="fas fa-tree"></i></span>
+                    <span id="fifth-counter">40,089+</span>
+                    <span>Grass</span>
+                </div>
+                <div class="fifth-section-number">
+                    <span><i class="fas fa-tram"></i></span>
+                    <span id="fifth-counter">40,089+</span>
+                    <span>Grass</span>
+                </div>
+                <div class="fifth-section-number">
+                    <span><i class="fas fa-shower"></i></span>
+                    <span id="fifth-counter">40,089+</span>
+                    <span>Grass</span>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <section class="six-seciton">
+        <div class="six-section-head">
+            <h1>Our Insights & Articles</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis</p>
+        </div>
+        <div class="sex-section-body">
+            <div class="six-section-body-item">
+                <div class="six-body-itm-img">
+                    <img src="./img/blog5-1-768x448.jpg" width="100%" height="100%" alt="blog5-">
+                </div>
+                <div class="six-body-intro">
+                    <h4>The traditional hand methods of cultivation</h4>
+                    <span>By admin</span>
+                    <span>March 6, 2019</span>
+                    <span>In varius varius justo, eget ultrices mauris rhoncus non. Morbi tristique, mauris eu imperdiet […]</span>
+                </div>
+            </div>
+            <div class="six-section-body-item">
+                <div class="six-body-itm-img">
+                    <img src="./img/blog4-1-768x448.jpg" width="100%" height="100%" alt="blog4-">
+                </div>
+                <div class="six-body-intro">
+                    <h4>Soil requirements of kitchen garden</h4>
+                    <span>By admin</span>
+                    <span>March 6, 2019</span>
+                    <span>In varius varius justo, eget ultrices mauris rhoncus non. Morbi tristique, mauris eu imperdiet […]</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="seven-section">
+        <div class="seven-section-container">
+            <div class="seven-section-body">
+                <h1>Newsletter</h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.</p>
+                <div class="home-email-div">
+                    <form action="" method="get">
+                        <input type="email" name="emai" id="email" class="email" placeholder="Your email address">
+                        <button>SUBMIT</button>
+                    </form>
+                </div>
+                <div class="content-logo">
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-facebook-square"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="contant-and-detail">
+                <h3>Quick Links</h3>
+                <a href="#">About Us</a>
+                <a href="#">FAQs</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="contant-and-detail">
+                <h3>All Services</h3>
+                <a href="#">The Driveway & Lawn</a>
+                <a href="#">Designing The Landscape</a>
+                <a href="#">The Driveway & Lawn</a>
+                <a href="#">View All Services</a>
+            </div>
+            <div class="contant-and-detail">
+                <h3>Contact Info</h3>
+                <a href="#"><span><i class="fas fa-map-marker-alt"></i></span> Uluwatu Jimbaran ST, 1919 - Bali, Indonesia</a>
+                <a href="tel:+62 212-345-321"><span><i class="fas fa-phone-alt"></i></span>+62 212-345-321</a>
+                <a href="mailto:Deva@Mailstore.Com"><span><i class="far fa-envelope"></i></span>Deva@Mailstore.Com</a>
+            </div>
+            <div class="contant-and-detail">
+                <h3>Make an Appointment</h3>
+                <p>Getting an accurate diagnosis can be one of the most impactful experiences that you can have.</p>
+                <a href="tel:09-957092779"><button><span><i class="fas fa-phone-alt"></i></span> +95 957092779</button></a>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
